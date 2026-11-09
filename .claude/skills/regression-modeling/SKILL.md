@@ -1,0 +1,31 @@
+---
+name: regression-modeling
+description: How to fit, check, and report regression models in this project. Use whenever fitting or interpreting a statistical model.
+---
+
+# Regression modeling
+
+## Before fitting
+
+- State the question in one sentence and name the outcome and predictors.
+- Report how many rows have complete data for the model's variables, and how many are dropped.
+- Check the data for survey weights or design variables (columns with `weight`, `stratum`, `psu`). If there are any, **stop and ask** whether the analysis should account for the survey design. Don't silently ignore them.
+
+## Fitting
+
+- Start with the simplest reasonable model, then the model asked for. Show both.
+- Use base R `lm()`/`glm()`. Use `broom::tidy(conf.int = TRUE)` for coefficient tables.
+- Center or rescale continuous predictors when that makes coefficients easier to read, and say what you did.
+
+## Checks
+
+- Residuals vs. fitted values and a Q–Q plot of residuals.
+- Note influential points or a non-linear pattern if you see them.
+- Compare the coefficients between the simple and full models. Explain any large change.
+
+## Reporting
+
+- Report estimates with 95% confidence intervals, in the outcome's units.
+- Write "is associated with", never "causes", "increases", or "the effect of".
+- List at least two limitations.
+- Every number in the text comes from code output. Don't type numbers in by hand.

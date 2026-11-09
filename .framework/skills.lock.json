@@ -1,0 +1,110 @@
+{
+  "schema": 1,
+  "skills": {
+    "package:framework-workflow": {
+      "paths": [
+        ".claude/skills/framework-workflow",
+        ".agents/skills/framework-workflow"
+      ],
+      "variant": "r",
+      "hash": "7ceeaaeb4eeb2f43840aa5d6a6364de657b87aa3fd856e11be90c5d3220f99b0",
+      "origin": {
+        "skill_id": "framework:framework-workflow",
+        "hash": "7ceeaaeb4eeb2f43840aa5d6a6364de657b87aa3fd856e11be90c5d3220f99b0"
+      }
+    },
+    "package:framework-data": {
+      "paths": [
+        ".claude/skills/framework-data",
+        ".agents/skills/framework-data"
+      ],
+      "variant": "r",
+      "hash": "5d75134c768c265b175d51020069ac3fb5cac88ac2237ff4f2c338b30faa9bfd",
+      "origin": {
+        "skill_id": "framework:framework-data",
+        "hash": "5d75134c768c265b175d51020069ac3fb5cac88ac2237ff4f2c338b30faa9bfd"
+      }
+    },
+    "package:framework-packages": {
+      "paths": [
+        ".claude/skills/framework-packages",
+        ".agents/skills/framework-packages"
+      ],
+      "variant": "r",
+      "hash": "dbc35b166c281ec86212fd83845759cd1ef047a79ac777d0f9b8a62ea74518af",
+      "origin": {
+        "skill_id": "framework:framework-packages",
+        "hash": "dbc35b166c281ec86212fd83845759cd1ef047a79ac777d0f9b8a62ea74518af"
+      }
+    },
+    "package:framework-outputs": {
+      "paths": [
+        ".claude/skills/framework-outputs",
+        ".agents/skills/framework-outputs"
+      ],
+      "variant": "r",
+      "hash": "4966fe03fa5de77f36cd09ac493786cf6496f006b233c0f976fd5e3205c0630d",
+      "origin": {
+        "skill_id": "framework:framework-outputs",
+        "hash": "4966fe03fa5de77f36cd09ac493786cf6496f006b233c0f976fd5e3205c0630d"
+      }
+    },
+    "package:ggplot2-exploring": {
+      "paths": [
+        ".claude/skills/ggplot2-exploring",
+        ".agents/skills/ggplot2-exploring"
+      ],
+      "variant": "r",
+      "hash": "78ea878a329e23c69760b3ccbb0a0799a554c2c60893a0c69839c85e884332fd",
+      "origin": {
+        "skill_id": "framework:ggplot2-exploring",
+        "hash": "78ea878a329e23c69760b3ccbb0a0799a554c2c60893a0c69839c85e884332fd"
+      }
+    },
+    "package:ggplot2-publishing": {
+      "paths": [
+        ".claude/skills/ggplot2-publishing",
+        ".agents/skills/ggplot2-publishing"
+      ],
+      "variant": "r",
+      "hash": "7c8919f9140abd7af2d46d24402754e60e5421d24d2b5bde3ad17995e1b9458a",
+      "origin": {
+        "skill_id": "framework:ggplot2-publishing",
+        "hash": "7c8919f9140abd7af2d46d24402754e60e5421d24d2b5bde3ad17995e1b9458a"
+      }
+    },
+    "account:https://framework.pub:0faf2836-a3d9-4a78-907f-a44b38dded3e:r": {
+      "paths": [
+        ".claude/skills/data-cleaning",
+        ".agents/skills/data-cleaning"
+      ],
+      "variant": "r",
+      "hash": "644edbeffbef375ac4f6213379695c658ec85f83a49f0f12bf454401953c6aaa",
+      "server": "https://framework.pub",
+      "version": 1,
+      "skill_id": "0faf2836-a3d9-4a78-907f-a44b38dded3e"
+    },
+    "account:https://framework.pub:7b04b74f-eb68-4dc9-98d9-44c69cfa5f15:r": {
+      "paths": [
+        ".claude/skills/analysis-report",
+        ".agents/skills/analysis-report"
+      ],
+      "variant": "r",
+      "hash": "a0a4cf730f4e94fc022fca7f9d50dbc50cc3e556ff5c8ecac81e6e847f10e166",
+      "server": "https://framework.pub",
+      "version": 1,
+      "skill_id": "7b04b74f-eb68-4dc9-98d9-44c69cfa5f15"
+    },
+    "account:https://framework.pub:6bf9c6f2-03c4-4873-96c2-2805ac151647:r": {
+      "paths": [
+        ".claude/skills/regression-modeling",
+        ".agents/skills/regression-modeling"
+      ],
+      "variant": "r",
+      "hash": "f262e57831d8b5a1f946e283c06af26a127dc34dce39bbc579cd7ddd9be55adb",
+      "server": "https://framework.pub",
+      "version": 1,
+      "skill_id": "6bf9c6f2-03c4-4873-96c2-2805ac151647"
+    }
+  }
+}
