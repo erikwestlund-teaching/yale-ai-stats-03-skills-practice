@@ -12,13 +12,23 @@ Three tasks, each with its own skill. Do as many as time allows, in any order.
 
 The skills are in `.agents/skills/` (Posit Assistant, Codex) and `.claude/skills/` (Claude Code). In RStudio, use **More → Show Hidden Files** to see them.
 
+## Install packages
+
+Run this once in the R console, from the project folder:
+
+```r
+source("setup.R")
+```
+
+It installs any of this project's packages that are missing: tidyverse, rmarkdown, here, broom.
+
 ## Open the project
 
 - **RStudio:** open `yale-ai-stats-03-skills-practice.Rproj`.
 - **Positron or VS Code:** open this folder (or `yale-ai-stats-03-skills-practice.code-workspace`).
 - **Claude Code or Codex:** start the tool from a terminal in this folder.
 
-You need R with the **tidyverse**, **rmarkdown**, and **here** packages, and Quarto (bundled with RStudio).
+You need R and Quarto (bundled with RStudio and Positron). `setup.R` installs the packages.
 
 ## Prompts
 
