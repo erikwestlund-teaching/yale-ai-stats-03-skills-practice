@@ -17,7 +17,6 @@ Each row is one **pre-aggregated estimate**: the percent of new mothers in a sta
 | `Sub Group` | The subgroup within that category |
 | `Measure` | The behavior or outcome estimated |
 | `Estimate` | Percent estimate, stored as text |
-| `Notes` | Free-text notes about the row |
 | `Year` | Survey year |
 
 ## Known problems

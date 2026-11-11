@@ -22,8 +22,9 @@ Use these sections, in this order:
 - Round sensibly: percentages to one decimal, counts as whole numbers with thousands separators.
 - Hide code by default (`echo: false` in the YAML); keep it in the file.
 - Don't use causal language, and don't make claims beyond the data.
+- If the data have survey weights or design variables, say in Methods whether the analysis uses them and why.
 - The report must render from a clean session: read data from files and set no absolute paths.
 
-## When done
+## Final check
 
 Render the report and confirm it builds. Then list any statement in the text that isn't directly backed by output in the report.
