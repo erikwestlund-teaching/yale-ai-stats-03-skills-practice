@@ -1,6 +1,6 @@
 # Exercise 3: Practice With Skills
 
-Part of the workshop **AI Tools for Statistical Programming and Analysis**.
+Part of the workshop **AI-Powered Coding and Data Analysis**.
 
 Three tasks, each with its own skill. Do as many as time allows, in any order. The tasks are independent. Tasks B and C read the raw survey file, so neither needs Task A's output.
 
