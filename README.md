@@ -10,7 +10,7 @@ Three tasks, each with its own skill. Do as many as time allows, in any order.
 | B. Modeling | `notebooks/02_modeling.qmd` | `regression-modeling` | `inputs/raw/neighborhood_health_survey.csv` |
 | C. Report | `notebooks/03_report.qmd` | `analysis-report` | `inputs/raw/neighborhood_health_survey.csv` |
 
-The skills are in `.agents/skills/` (Posit Assistant, Codex) and `.claude/skills/` (Claude Code). In RStudio, use **More → Show Hidden Files** to see them.
+Four general skills apply to every task: `packages`, `notebooks`, `outputs`, and `git`. The skills are in `.agents/skills/` (Posit Assistant, Codex) and `.claude/skills/` (Claude Code). In RStudio, use **More → Show Hidden Files** to see them.
 
 ## Install packages
 
