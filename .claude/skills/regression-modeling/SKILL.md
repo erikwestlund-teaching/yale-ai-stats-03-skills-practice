@@ -15,15 +15,12 @@ description: How to fit, check, and report regression models in this project. Us
 
 ## Fitting
 
-- Start with the simplest reasonable model, then the model asked for. Show both.
 - Use base R `lm()`/`glm()`. Use `broom::tidy(conf.int = TRUE)` for coefficient tables.
-- Center or rescale continuous predictors when that makes coefficients easier to read, and say what you did.
 
 ## Checks
 
 - Residuals vs. fitted values and a Q–Q plot of residuals.
 - Note influential points or a non-linear pattern if you see them.
-- Compare the coefficients between the simple and full models. Explain any large change.
 
 ## Reporting
 
